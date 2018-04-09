@@ -1,0 +1,9 @@
+[package]
+name = "rust_test"
+version = "0.1.0"
+authors = ["Liam Oliver-Mallory <liam.olivermallory@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+test_lib = {path = "../lib"}
+cpp_lib = {path = "../cpp_lib"}

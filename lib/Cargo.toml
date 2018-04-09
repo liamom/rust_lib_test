@@ -1,0 +1,6 @@
+[package]
+name = "test_lib"
+version = "0.1.0"
+authors = ["Liam Oliver-Mallory <liam.olivermallory@gmail.com>"]
+
+[dependencies]

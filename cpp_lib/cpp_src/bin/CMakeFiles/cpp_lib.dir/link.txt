@@ -1,0 +1,2 @@
+D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe qc libcpp_lib.a  CMakeFiles/cpp_lib.dir/cpp_lib.c.obj
+D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\ranlib.exe libcpp_lib.a

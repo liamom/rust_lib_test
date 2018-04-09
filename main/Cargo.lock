@@ -1,0 +1,35 @@
+[[package]]
+name = "cc"
+version = "1.0.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "cmake"
+version = "0.1.30"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "cc 1.0.9 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "cpp_lib"
+version = "0.1.0"
+dependencies = [
+ "cmake 0.1.30 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "rust_test"
+version = "0.1.0"
+dependencies = [
+ "cpp_lib 0.1.0",
+ "test_lib 0.1.0",
+]
+
+[[package]]
+name = "test_lib"
+version = "0.1.0"
+
+[metadata]
+"checksum cc 1.0.9 (registry+https://github.com/rust-lang/crates.io-index)" = "2b4911e4bdcb4100c7680e7e854ff38e23f1b34d4d9e079efae3da2801341ffc"
+"checksum cmake 0.1.30 (registry+https://github.com/rust-lang/crates.io-index)" = "5cf678ceebedde428000cb3a34465cf3606d1a48da17014948a916deac39da7c"
